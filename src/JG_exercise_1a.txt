@@ -28,4 +28,4 @@ Description: [The main function of the program. This function exists to contain 
 Parameters: [The function does not take any parameters]
 Returns: [The function does not return a value]
 ---
-Link to repository: www.repository.com
+Link to repository: https://github.com/iuliasbs/jg_cop2373
