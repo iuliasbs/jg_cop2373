@@ -1,0 +1,31 @@
+Exercise 1A Technical Design Document
+---
+Name: JG
+Date Created: August 27, 2024
+---
+Program Description:
+The program will pre-sell a limited number of cinema tickets. The program executes a loop until all tickets are sold. Each buyer is allowed to purchase up to 4 tickets. The program ends when all tickets have been sold. This software would allow a ticket company to pre-sell tickets to concerts and other events.
+---
+Logical Steps:
+1. [Step 1: Greet the user]
+2. [Step 2: Initialize the variables]
+3. [Step 3: Start the loop and check the loop condition]
+4. [Step 4: Prompt the user for how many tickets they will purchase]
+5. [Step 5: Warn the user if they tried to purchase more than 4]
+6. [Step 6: Warn the user if they tried to purchase more tickets than are available]
+7. [Step 7: Process the purchase and subtract the number purchased from the available count]
+8. [Step 8: Increment the total number of buyers]
+9. [Step 9: Print how many tickets are left]
+10. [Step 10: After the loop is finished, print a summary including the total number of buyers]
+---
+Variables:
+1. [Variable 1: tickets_left: an integer to track how many tickets are available for sale at every step of the program]
+2. [Variable 2: buyers: a counter to record the total number of successful buyers. Buyers who try to purchase more than 4 tickets will not be included in the count]
+---
+Functions:
+1. Function Name: [main]
+Description: [The main function of the program. This function exists to contain the main code of the program.]
+Parameters: [The function does not take any parameters]
+Returns: [The function does not return a value]
+---
+Link to repository: www.repository.com
