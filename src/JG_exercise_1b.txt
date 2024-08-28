@@ -1,0 +1,35 @@
+Exercise 1B Technical Design Document
+---
+Name: JG
+Date Created: August 28, 2024
+---
+Program Description:
+The program simulates a Magic 8 Ball.
+---
+Logical Steps:
+1. [Step 1: Create the answers file]
+2. [Step 2: Load the answers file into an array]
+3. [Step 3: Start the loop]
+4. [Step 4: Prompt the user for their question]
+5. [Step 5: If the user typed quit, break from the loop]
+6. [Step 6: Else print a random answer from the array]
+---
+Variables:
+1. [Variable 1: answers: The list of possible answers that are read from the file]
+2. [Variable 2: question: The input from the user]
+---
+Functions:
+1. Function Name: [create_answers]
+Description: [This function creates the 8ball_responses.txt file and adds the possible answers to it.]
+Parameters: [The function does not take any parameters]
+Returns: [The function does not return a value]
+2. Function Name: [get_answers]
+Description: [This function reads the 8ball_responses.txt file and returns the lines as an array of strings.]
+Parameters: [The function does not take any parameters]
+Returns: [The function returns an array of strings with the possible answers]
+3. Function Name: [main]
+Description: [This function runs the program.]
+Parameters: [The function does not take any parameters]
+Returns: [The function does not return a value]
+---
+Link to repository: https://github.com/iuliasbs/jg_cop2373
