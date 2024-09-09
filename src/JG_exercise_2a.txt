@@ -1,0 +1,33 @@
+Exercise 2A Technical Design Document
+---
+Name: JG
+Date Created: September 9, 2024
+---
+Program Description:
+The program calculates the spam score of a message.
+---
+Logical Steps:
+1. [Step 1: Ask the user to enter the email message]
+2. [Step 2: Create an empty list for tracking the spam words found]
+3. [Step 3: Loop through the spam words]
+4. [Step 4: If the message contains the spam word, add it to the list of spam found]
+5. [Step 5: Count how many spam words were found]
+6. [Step 6: Display the spam score]
+7. [Step 7: Calculate the likelihood that the message is spam]
+8. [Step 8: Dispay the likelihood that the message is spam]
+---
+Variables:
+1. [Variable 1: spam_words: The list of spam words and phrases]
+2. [Variable 2: message: The email message inputted by the user]
+3. [Variable 3: spam_found: A list to track the spam words found in the message]
+4. [Variable 4: word: The variable used for looping through the spam words list]
+5. [Variable 5: spam_score: The count of spam words found]
+6. [Variable 6: spam_likelihood: A string to indicate the likelihood that the email message is spam]
+---
+Functions:
+1. Function Name: [main]
+Description: [This function runs the program.]
+Parameters: [The function does not take any parameters]
+Returns: [The function does not return a value]
+---
+Link to repository: https://github.com/iuliasbs/jg_cop2373
