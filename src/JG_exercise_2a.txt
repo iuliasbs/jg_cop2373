@@ -1,4 +1,4 @@
-Exercise 2A Technical Design Document
+Exercise 2A Technical Design Document.
 ---
 Name: JG
 Date Created: September 9, 2024
