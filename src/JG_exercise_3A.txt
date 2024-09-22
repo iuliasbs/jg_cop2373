@@ -1,0 +1,31 @@
+Exercise 3A Monthly expense calculator
+---
+Date created: September 22 2024
+---
+Program Description
+The program calculates the total monthly expense and displays this along with the highest and lowest monthly expenses
+---
+Logical Steps:
+[Step 1: Create an array for the amounts.]
+[Step 2: Create the loop.]
+[Step 3: Create the input for the type of monthly expense.]
+[Step 4: Create the condition for ending the loop.]
+[Step 5: Create the input for the amount.]
+[Step 6: Add the amount to the array]
+[Step 7: Print the total amount.]
+[Step 8: Print the lowest amount.]
+[Step 9: Print the largest amount.]
+---
+Variables:
+[Variable 1: expenses: The array that contains the users input]
+[Variable 2: type: The value for the type of monthly expense the user entered]
+[Variable 3: amount: The value for the amount of the monthly expense the user entered]
+---
+Functions:
+[Function 1: main: The main function]
+[Function 2: lambda: Lambda function to calculate the total]
+[Function 3: lambda: Lambda function to calculate the lowest]
+[Function 4: lambda: Lambda function to calculate the highest]
+---
+Link to repository: https://github.com/iuliasbs/jg_cop2373
+
