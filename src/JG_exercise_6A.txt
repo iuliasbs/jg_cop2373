@@ -1,0 +1,28 @@
+Exercise 6A Data validation
+---
+Date created: October 12, 2024
+---
+Program Description
+The program validates user-entered phone number, social security number and zip code
+---
+Logical Steps:
+[Step 1: Prompt the user to enter their phone number]
+[Step 2: Prompt the user to enter their social security number]
+[Step 3: Prompt the user to enter their zip code]
+[Step 4: Validate the phone number]
+[Step 5: Validate the social security number]
+[Step 6: Validate the zip code]
+---
+Variables:
+[Variable 1: phone: The user-entered phone number]
+[Variable 2: ssn: The user-entered social security number]
+[Variable 3: zip: The user-entered zip code]
+---
+Functions:
+[Function 1: main: The main function]
+[Function 2: validatePhone: Uses a regular expression to validate the phone number]
+[Function 3: validateSsn: Uses a regular expression to validate the social security number]
+[Function 4: validateZip: Uses a regular expression to validate the zip code]
+---
+Link to repository: https://github.com/iuliasbs/jg_cop2373
+
