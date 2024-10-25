@@ -1,0 +1,42 @@
+Exercise CSV
+---
+Date created: October 24, 2024
+---
+Program Description
+The program creates a CSV file with student grades, reads the file and displays a table
+---
+Logical Steps:
+[Step 1: Prompt the user to enter the number of students]
+[Step 2: Open a CSV file for write]
+[Step 3: Create a writer for the file]
+[Step 4: Write a header row to the CSV file]
+[Step 5: For each student Prompt the user to enter the name and 3 grades]
+[Step 6: Write the student's information to the CSV file]
+[Step 7: Open the CSV file for read]
+[Step 8: Create a reader for the file]
+[Step 9: Read the hader row]
+[Step 10: Print the hader row]
+[Step 11: Read each row in the file]
+[Step 12: Print the row]
+---
+Variables:
+[Variable 1: student_count: The number of students]
+[Variable 2: file: The grades.csv file]
+[Variable 3: writer: A writer for the file]
+[Variable 4: i: A counter]
+[Variable 5: first_name: The student's first name]
+[Variable 6: last_name: The student's last name]
+[Variable 7: grade_1: The student's first grade]
+[Variable 8: grade_2: The student's second grade]
+[Variable 9: grade_3: The student's third grade]
+[Variable 10: reader: A reader for the file]
+[Variable 11: headers: The header row from the file]
+[Variable 12: row: A row from the file]
+---
+Functions:
+[Function 1: save: The main function]
+[Function 2: save: A function to ask the user for input and create the CSV file]
+[Function 3: read: A function to read the file and print the table]
+---
+Link to repository: https://github.com/iuliasbs/jg_cop2373
+
