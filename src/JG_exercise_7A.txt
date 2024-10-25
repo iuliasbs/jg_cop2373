@@ -1,0 +1,29 @@
+Technical Design Document
+Name: JG
+Date Created: October 24, 2024
+
+Program Description:
+This program counts and prints all individual sentences in a string
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: main
+     Description: The main function of the program
+     Parameters: None
+     Variables:
+pat: The pattern to look for
+s: The string that contains all of the sentences
+m: The list of sentences
+i: A counter for the loop
+     Logical Steps:
+Create the pattern to look for
+Create the string with all of the sentences
+Create the list of sentences
+Loop through the list of sentences
+Print the sentence
+Print the number of sentences
+     Returns: None
+
+Logical Steps:
+Call the main function
+
+Link to your repository: https://github.com/iuliasbs/jg_cop2373
