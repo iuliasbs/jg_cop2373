@@ -1,0 +1,63 @@
+Name: JG
+Date Created: November 1, 2024
+
+Program Description:
+The program is a class for a bank account, and contains code to test the class
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: test_bank_acct
+     Description: Creates a bank account and tests each method of the bank account class
+     Parameters: None
+     Variables: account is a BankAccount object
+     Logical Steps:
+
+     1. Create a bank account
+     2. Display account summary before making any changes
+     3. Test withdrawing money
+     4. Test depositing money
+     5. Test calculating the interest
+     6. Change the interest rate
+     7.Display account summary after making changes
+
+     Returns: None
+
+2. Function name: set_interest_rate
+     Description: sets the interest rate
+     Parameters: interest_rate
+     Variables: None
+     Logical Steps:
+     1. Set the member variable
+3. Function name: deposit
+     Description: deposits money into the account
+     Parameters: amount
+     Variables: None
+     Logical Steps:
+     1. Add to the amount member variable
+4. Function name: withdraw
+     Description: withdraws money from the account
+     Parameters: amount
+     Variables: None
+     Logical Steps:
+     1. Subtract from the amount member variable
+5. Function name: calculate_interest
+     Description: calculates interest for a specified number of days
+     Parameters: days
+     Variables: None
+     Logical Steps:
+     1. Calcualte the amount of interest earned in the specified number of days
+
+2. Class: BankAcct
+     Description: A class to represent a bank account
+     Methods:
+
+     1. __init__ - the constructor
+     2. set_interest_rate - sets the interest rate
+     3. deposit - deposits money into the account
+     4. withdraw - withdraws money from the account
+     5. calculate_interest - calculates interest for a specified number of days
+
+Logical Steps:
+
+1. Call the test_bank_acct function
+
+Link to repository: https://github.com/iuliasbs/jg_cop2373
