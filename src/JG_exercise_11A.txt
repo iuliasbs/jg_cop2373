@@ -1,0 +1,32 @@
+Name: JG
+Date Created: November 17, 2024
+
+Program Description:
+The program simulates a hand of Poker
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: main
+     Description: The main program
+     Parameters: None
+     Variables:
+
+     1. deck: The deck with 52 cards
+     2. hand: The player's handd of 5 cards
+
+     Logical Steps:
+
+     1. Create a deck weith 52 cards
+     2. Create an empty hand for the player
+     3. Deal 5 cards from the deck into the hand
+     4. Print the hand
+     5. Ask the user which cards to replace
+     6. For each card that the user wants to replace, Deal a new card to replace the card in the hand
+     7. Print the hand
+
+     Returns: None
+
+Logical Steps:
+
+1. Call the main function
+
+Link to repository: https://github.com/iuliasbs/jg_cop2373
