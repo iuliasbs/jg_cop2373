@@ -1,0 +1,38 @@
+Name: JG
+Date Created: November 17, 2024
+
+Program Description:
+The program calculates and prints statistics for exam grades
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: main
+     Description: The main program
+     Parameters: None
+     Variables:
+
+     1. dt: Column definitions
+     2. data: The data from the grades file
+     3. exam_scores: numpy array for the 3 exams
+     4. all_grades: an array with all grades
+     5. passing_grade: the passing grade is 60
+     6 total_passed: how many students passed
+     7. total_students: total student count
+     8. pass_percentage: the percentage of students who passed
+
+     Logical Steps:
+
+     1. Load the data from the CSV file into a numpy array
+     2. Print the first few rows of the dataset
+     3. Make a numpy array with the exam scores
+     4. Calculate and display statistics for each exam
+     5. Calculate and display statistics for all exams
+     6. Calculate and display the number of students who passed and failed each exam
+     7. Calculate and display overall pass percentage across all exams
+
+     Returns: None
+
+Logical Steps:
+
+1. Call the main function
+
+Link to repository: https://github.com/iuliasbs/jg_cop2373
