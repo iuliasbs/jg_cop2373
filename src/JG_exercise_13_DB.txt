@@ -1,0 +1,79 @@
+Name: JG
+Date Created: November 27, 2024
+
+Program Description:
+The program creates a database with cities in Florida
+
+Functions used in the Program (list in order as they are called):
+1. Function Name: main
+     Description: The main program
+     Parameters: None
+     Variables:
+
+     1. conn: The database connection
+     2. cursor: A cursor for getting data from the database
+
+     Logical Steps:
+
+     1. Create the population database
+     2. Insert the 10 cities populations
+     3. Simulate 20 years of population growth
+     4. Plot the data
+
+     Returns: None
+
+2. Function Name: insert_cities
+     Description: Insert the 10 cities populations
+     Parameters: conn
+     Variables:
+
+     1. cursor: A cursor for getting data from the database
+
+     Logical Steps:
+
+     1. Make a cursor with the connection
+     2. Insert all of the cities
+
+     Returns: None
+
+3. Function Name: grow_population
+     Description: Calculate population growth for the next 20 years
+     Parameters: conn
+     Variables:
+
+     1. cursor: A cursor for getting data from the database
+
+     Logical Steps:
+
+     1. Calculate population growth for every city
+     2. Get the population in the previous year
+     3. Increase the population by 2%
+     4. Save the projected population to the table
+
+     Returns: None
+
+4. Function Name: show_city_growth
+     Description: Function to plot population growth for a selected city
+     Parameters: conn
+     Variables:
+
+     1. cursor: A cursor for getting data from the database
+
+     Logical Steps:
+
+     1. Make a cursor with the connection
+     2. Loop
+     3. Ask the user to choose a city or to exit
+     4. Check if the user wants to quit
+     5. Get the population for all years
+     6. Create arrays for the population data
+     7. Show the data in a plot
+
+     Returns: None
+
+
+Logical Steps:
+
+1. Call the main function
+
+Link to repository: https://github.com/iuliasbs/jg_cop2373
